@@ -4,7 +4,7 @@
 function SavePoint() {
     // 当前页面的滚动距离
     this.scrollTop = document.body.scrollTop || document.documentElement.scrollTop;
-    // 当前页面所属标签
+    // 当前页面所属title
     this.tag = document.title;
 }
 SavePoint.prototype = {
